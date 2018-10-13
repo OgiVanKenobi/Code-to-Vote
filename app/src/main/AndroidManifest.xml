@@ -25,6 +25,9 @@
         <activity android:name=".activity.Problem1Activity"/>
         <activity android:name=".activity.Problem2Activity"/>
         <activity android:name=".activity.Problem3Activity"/>
+        <activity android:name=".activity.Problem4Activity"/>
+        <activity android:name=".activity.Problem5Activity"/>
+
 
 
 
