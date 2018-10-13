@@ -22,6 +22,11 @@
             android:theme="@style/AppTheme.CustomTheme"/>
         <activity android:name=".activity.RegisterActivity"
             android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".activity.Problem1Activity"/>
+        <activity android:name=".activity.Problem2Activity"/>
+        <activity android:name=".activity.Problem3Activity"/>
+
+
 
 
     </application>
