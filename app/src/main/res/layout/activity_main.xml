@@ -112,6 +112,21 @@
             android:layout_marginBottom="118dp"
             android:src="@drawable/add_question"/>
 
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginRight="27dp"
+            android:layout_marginBottom="74dp"
+            android:text="Vaš problem se ne nalazi na listi? \nPomozite nam i predstavite nam svoj problem!"
+            android:textSize="16sp" />
+
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
