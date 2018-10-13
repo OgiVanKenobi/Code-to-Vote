@@ -3,4 +3,110 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Problem2Naslov"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text="Nisam siguran gde je moje biračko mesto"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/P2TextView0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text="Rešenje: Da li znaš da možeš da ostvariš uvid u Jedinstveni birački spisak, elektronskim putem?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#33cc33"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"/>
+
+            <TextView
+                android:id="@+id/P2TextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text=" Ukoliko nisi siguran/sigurna gde se nalazi biračko mesto na kome možeš glasati, možeš
+ostvariti uvid u isto putem upita u Jedinstveni birački spisak, elektornskim putem na
+zvaničnoj internet stranici Ministarstva državne uprave i lokalne samouprave, unošenjem jedinstvenog matičnog broja
+građana."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+
+            <TextView
+                android:id="@+id/P2TextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:drawableLeft="@drawable/link"
+                android:gravity="center_vertical"
+                android:text="Pronađi svoje biračko mesto"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp" />
+
+
+
+            <TextView
+                android:id="@+id/P2TextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:text="  *Zakon o jedinstvenom biračkom spisku, član 1: "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/P2TextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:text="      „Jedinstveni birački spisak jeste javna
+isprava u kojoj se vodi jedinstvena evidencija državljana Republike Srbije koji imaju biračko pravo.„"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
 </android.support.constraint.ConstraintLayout>
