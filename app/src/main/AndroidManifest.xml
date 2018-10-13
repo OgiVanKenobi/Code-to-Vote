@@ -17,8 +17,13 @@
             </intent-filter>
         </activity>
 
+
         <activity android:name=".activity.LoginActivity"
             android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".activity.RegisterActivity"
+            android:theme="@style/AppTheme.CustomTheme"/>
+
+
     </application>
 
 </manifest>
