@@ -12,6 +12,16 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.example.android.codetovote.R;
+import com.example.android.codetovote.domain.PotentialProblem;
+import com.example.android.codetovote.domain.User;
+import com.example.android.codetovote.retrofit.RetrofitClient;
+import com.example.android.codetovote.retrofit.UserAPI;
+
+import java.util.Date;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class PrijavaProblemaActivity extends Activity {
 
@@ -54,17 +64,45 @@ public class PrijavaProblemaActivity extends Activity {
 
                 naslov = naslovInput.getText().toString();
                 opis = opisInput.getText().toString();
-                if(!naslov.isEmpty() && !opis.isEmpty()){
+                if(!naslov.isEmpty() && !opis.isEmpty()) {
+                    User user = new User(13, "aaa", "aaa");
+                    Date date = new Date();
+                    PotentialProblem potentialProblem = new PotentialProblem(Long.valueOf(1), naslov, opis, date, user, false);
 
+                    //Mockup kod
                     Intent intent = new Intent(PrijavaProblemaActivity.this, PitanjaActivity.class);
                     intent.putExtra("msg", "Vaš odgovor je registrovan. Hvala što učestvujete!");
                     startActivity(intent);
                     finish();
+
+//
+//                    UserAPI userApi = RetrofitClient.getRetrofitInstance().create(UserAPI.class);
+//                    Call<PotentialProblem> call = userApi.save(potentialProblem);
+//                    call.enqueue(new Callback<PotentialProblem>() {
+//                        @Override
+//                        public void onResponse(Call<PotentialProblem> call, Response<PotentialProblem> response) {
+//                            if (response.code() == 200) {
+//                                Intent intent = new Intent(PrijavaProblemaActivity.this, PitanjaActivity.class);
+//                                intent.putExtra("msg", "Vaš odgovor je registrovan. Hvala što učestvujete!");
+//                                startActivity(intent);
+//                                finish();
+//                            } else {
+//                                Toast.makeText(getApplicationContext(), "Došlo je do problema! Pokušajte ponovo.", Toast.LENGTH_LONG).show();
+//                            }
+//                        }
+//
+//                        @Override
+//                        public void onFailure(Call<PotentialProblem> call, Throwable t) {
+//
+//                        }
+//
+//                    });
+//
                 }else{
                     Toast.makeText(getApplicationContext(), "Polja ne mogu biti prazna!",Toast.LENGTH_LONG).show();
                 }
 
-            }
+                }
         });
 
         cancelButton.setOnClickListener(new View.OnClickListener() {

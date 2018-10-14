@@ -31,7 +31,7 @@
         <activity android:name=".activity.Problem4Activity"/>
         <activity android:name=".activity.Problem5Activity"/>
         <activity android:name=".activity.PrijavaProblemaActivity"/>
-
+        <activity android:name=".activity.PitanjaActivity"/>
 
 
 

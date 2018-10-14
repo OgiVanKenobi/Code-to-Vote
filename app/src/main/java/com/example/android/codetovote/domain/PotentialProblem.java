@@ -1,14 +1,29 @@
 package com.example.android.codetovote.domain;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 import java.util.Date;
 
 public class PotentialProblem {
 
+        @SerializedName("id")
+        @Expose
         private Long id;
+        @SerializedName("name")
+        @Expose
         private String name;
+        @SerializedName("description")
+        @Expose
         private String description;
+        @SerializedName("Date")
+        @Expose
         private Date dateCreated = new Date();
+        @SerializedName("user")
+        @Expose
         private User user;
+        @SerializedName("converted")
+        @Expose
         private boolean converted;
 
     public PotentialProblem() {

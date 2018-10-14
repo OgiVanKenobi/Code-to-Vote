@@ -4,6 +4,10 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/cardview_light_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,11 +18,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
+        android:layout_gravity="center"
         android:layout_marginTop="6dp"
         android:layout_marginLeft="6dp"
         android:layout_marginRight="6dp"
         android:text="Uključi se! "
-        android:textSize="28sp"
+        android:textSize="34sp"
         android:textStyle="bold"
         android:textColor="#000000"/>
 
@@ -26,7 +31,9 @@
         android:id="@+id/PTextView0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
         android:layout_marginLeft="6dp"
         android:layout_marginRight="6dp"
         android:text="Podeli sa nama razloge zbog kojih ne želiš da učestvuješ u izbornom procesu i potrudićemo se da ti pomognemo da se aktiviraš! Ne dozvoli drugima da kreiraju tvoju budućnost!"
@@ -46,7 +53,8 @@
         android:id="@+id/P3TextView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="6dp"
         android:layout_marginRight="6dp"
         android:text=" Problemi za koje trenutno nudimo rešenje: "
@@ -56,7 +64,8 @@
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="wrap_content"
-        android:layout_height="20dp"
+        android:layout_height="40dp"
+        android:paddingTop="10dp"
         android:spinnerMode="dropdown"
         android:layout_marginTop="10dp"/>
 
@@ -64,7 +73,8 @@
     android:id="@+id/PTextView2"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginTop="6dp"
+        android:layout_gravity="center"
+    android:layout_marginTop="16dp"
     android:layout_marginLeft="6dp"
     android:layout_marginRight="6dp"
     android:text="Naziv tvog problema: "
@@ -77,6 +87,7 @@
         android:layout_height="40dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
         android:background="#11000000"
         android:drawableLeft="@drawable/pen"
         android:ems="10"
@@ -91,6 +102,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
+        android:layout_gravity="center"
         android:layout_marginLeft="6dp"
         android:layout_marginRight="6dp"
         android:text="Kratak opis: "
@@ -126,7 +138,7 @@
                 android:layout_height="50dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                app:cardBackgroundColor="@android:color/holo_blue_dark"
+                app:cardBackgroundColor="@color/darkBlue"
                 app:cardCornerRadius="25dp"
                 app:cardElevation="10dp"
                 android:layout_marginBottom="132dp">
@@ -152,7 +164,7 @@
                 android:id="@+id/CancelButton"
                 android:layout_width="100dp"
                 android:layout_height="50dp"
-                app:cardBackgroundColor="@android:color/holo_blue_dark"
+                app:cardBackgroundColor="@color/darkBlue"
                 app:cardCornerRadius="25dp"
                 app:cardElevation="10dp"
                 android:layout_marginBottom="132dp">
@@ -179,5 +191,7 @@
 
 
 </LinearLayout>
+
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>

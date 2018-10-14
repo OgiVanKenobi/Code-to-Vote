@@ -34,7 +34,7 @@
                 android:text="Rešenje: Da li znaš da postoji mogućnost da zaštitiš svoje izborno pravo, tačnije da prijaviš neregularnosti u toku izbornog procesa?"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:textColor="#33cc33"/>
+                android:textColor="@color/secondaryOrange"/>
 
             <View
                 android:layout_width="match_parent"

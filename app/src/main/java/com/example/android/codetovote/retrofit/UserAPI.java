@@ -1,5 +1,6 @@
 package com.example.android.codetovote.retrofit;
 
+import com.example.android.codetovote.domain.PotentialProblem;
 import com.example.android.codetovote.domain.User;
 
 import java.util.List;
@@ -25,7 +26,7 @@ public interface UserAPI {
 
     @POST("potentialproblems/save")
     @Headers("Content-Type: application/json")
-    Call<User> save(@Body User user);
+    Call<PotentialProblem> save(@Body PotentialProblem potProblem);
 
 
 

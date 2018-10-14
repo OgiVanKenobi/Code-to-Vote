@@ -1,5 +1,6 @@
 package com.example.android.codetovote.activity;
 
+import android.app.ActionBar;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -36,6 +37,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
+
+
+        getSupportActionBar().setTitle("");
+        getSupportActionBar().setLogo(R.drawable.polalogoa);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         add_questionIcon = findViewById(R.id.add_question);
         problem1Buton = findViewById(R.id.Problem1Button);
