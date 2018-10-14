@@ -17,10 +17,6 @@ import com.example.android.codetovote.domain.User;
 import com.example.android.codetovote.retrofit.RetrofitClient;
 import com.example.android.codetovote.retrofit.UserAPI;
 
-import java.util.List;
-
-import javax.xml.transform.Result;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -86,7 +82,7 @@ public class LoginActivity extends Activity {
                             @Override
                             public void onResponse(Call<User> call, Response<User> response) {
                                 if (response.code() == 200){
-                                    Intent intent = new Intent(LoginActivity.this, PitanjaActivity.class);
+                                    Intent intent = new Intent(LoginActivity.this, PrijavaProblemaActivity.class);
                                     intent.putExtra("username", response.body().getUsername());
                                     startActivity(intent);
                                     finish();

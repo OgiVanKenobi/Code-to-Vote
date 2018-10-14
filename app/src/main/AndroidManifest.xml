@@ -30,7 +30,7 @@
         <activity android:name=".activity.Problem3Activity"/>
         <activity android:name=".activity.Problem4Activity"/>
         <activity android:name=".activity.Problem5Activity"/>
-        <activity android:name=".activity.PitanjaActivity"/>
+        <activity android:name=".activity.PrijavaProblemaActivity"/>
 
 
 
