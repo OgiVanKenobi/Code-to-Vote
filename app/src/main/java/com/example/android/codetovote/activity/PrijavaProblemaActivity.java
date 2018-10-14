@@ -55,7 +55,7 @@ public class PrijavaProblemaActivity extends Activity {
                 naslov = naslovInput.getText().toString();
                 opis = opisInput.getText().toString();
                 if(!naslov.isEmpty() && !opis.isEmpty()){
-                    
+
                     Intent intent = new Intent(PrijavaProblemaActivity.this, PitanjaActivity.class);
                     intent.putExtra("msg", "Vaš odgovor je registrovan. Hvala što učestvujete!");
                     startActivity(intent);
