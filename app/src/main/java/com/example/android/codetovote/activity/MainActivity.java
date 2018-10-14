@@ -1,4 +1,4 @@
-package com.example.android.codetovote;
+package com.example.android.codetovote.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,12 +7,7 @@ import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.android.codetovote.activity.LoginActivity;
-import com.example.android.codetovote.activity.Problem1Activity;
-import com.example.android.codetovote.activity.Problem2Activity;
-import com.example.android.codetovote.activity.Problem3Activity;
-import com.example.android.codetovote.activity.Problem4Activity;
-import com.example.android.codetovote.activity.Problem5Activity;
+import com.example.android.codetovote.R;
 
 public class MainActivity extends AppCompatActivity {
 
