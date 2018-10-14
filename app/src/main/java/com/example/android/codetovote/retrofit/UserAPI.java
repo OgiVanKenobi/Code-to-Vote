@@ -19,5 +19,9 @@ public interface UserAPI {
      @Headers("Content-Type: application/json")
     Call<User> login(@Body User user);
 
+    @POST("user/register")
+    @Headers("Content-Type: application/json")
+    Call<User> register(@Body User user);
+
 
 }

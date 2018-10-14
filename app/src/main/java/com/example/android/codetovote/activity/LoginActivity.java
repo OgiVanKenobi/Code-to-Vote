@@ -38,6 +38,12 @@ public class LoginActivity extends Activity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_login);
 
+        Intent intent = getIntent();
+        String msg = intent.getStringExtra("username");
+        if (msg != null) {
+            Toast.makeText(getApplicationContext(), "Korisnik " + msg + "uspešno registrovan!", Toast.LENGTH_LONG).show();
+        }
+
         registerLink = findViewById(R.id.registerLink);
         loginButton = findViewById(R.id.loginButton);
         usernameInput = findViewById(R.id.editTextUsername);
