@@ -3,4 +3,184 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Problem5Naslov"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text="Smatram da moj glas neće ništa promeniti"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/P5TextView0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text="Rešenje: Da li znaš koji je značaj Narodne skupštine i koje su njene nadležnosti? Da li si upoznat/a sa
+načinom raspodele poslaničkih mandata? Da li znaš da je tvoj glas zapravo veoma važan?!"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#33cc33"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"/>
+
+            <TextView
+                android:id="@+id/P5TextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text="      Da bi ti pokazali koliko je tvoj glas zapravo važan, pre svega bismo ti ukazali na značaj
+Narodne skupštine u našem političkom sistemu. Tim povodom želeli bismo da ti ukažemo
+na neke od njenih najznačajnijih funkcija:"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/P5TextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:gravity="center_vertical"
+                android:text="Ona pre svega bira Vladu, kontroliše je i odlučuje o prestanku mandata Vlade i
+ministara;
+        - Bira i razrešava sudije Ustavnog suda ;
+        - Bira predsednika Vrhovnog kasacionog suda, predsednike sudova, sve javne tužioce i
+sudije;
+        - Bira i razrešava guvernera Narodne banke Srbije;
+        - Bira i razrešava Zaštitnika građana;
+        - Bira i razrešava i druge funkcionere utvrđene zakonom;
+        - Takođe, donosi i menja Ustav, odlučuje o promeni granica, raspisuje republički
+referendum i ima još ćitav set različitih nadležnosti."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/P5TextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:text="Pošto smo ti približili značaj same Narodne skupštine u političkom sistemu Srbije, sada da ti ukažemo na veliki značaj koji ti imaš u formiranju njenog sastava i na koji način utičeš na njega. U raspodeli mandata učestvuju samo izborne liste koje su dobile najmanje 5% od ukupnog broja glasova birača koji su glasali. "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/P5TextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:text="Svakoj izbornoj listi pripada broj mandata koji je srazmeran broju dobijenih glasova. Mandati se raspodeljuju primenom sistema najvećeg količnika, tako što se ukupan broj glasova koja je dobila svaka pojedinačna izborna lista podeli sa projevima od 1 do zaključno sa brojem 250. Dobijeni količnici se razvrstavaju po veličini, a svaka lista dobije onoliko mandata koliko najvećih količnika u broju 250 otpadne na nju."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/P5TextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:gravity="center_vertical"
+                android:text="Ako i dalje misliš da tvoj glas ne menja ništa pripremili smo za tebe grafički prikaz razlike u sastavu Narodne skupštine kada se povećala izlaznost za samo 3%(2014.godine glasalo je 53,09% , 2016. 57,07% od ukupnog broja upisanih birača): "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+            <ImageView
+                android:id="@+id/skupstina1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/skupstina1" />
+
+            <ImageView
+                android:id="@+id/skupstina2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/skupstina2" />
+
+
+
+            <TextView
+            android:id="@+id/P5TextView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:gravity="center_vertical"
+            android:text="Ako je ovako uočljiva razlika kada se izlaznost povećala za 3%, kolika bi razlika bila kada bismo svi izašli na glasanje? Upravo zato je TVOJ glas važan, jer će na taj način nastati ravnoteža snaga stranaka u Narodnoj skupštini, koja bi onemogućila da većinska stranka donosi odluke kako ona želi."
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/P5TextView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:gravity="center_vertical"
+                android:text="O brojnim nadležnostima Narodne skupštine možeš se informisati na njenom zvaničnom sajtu:"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/P5TextView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="24dp"
+                android:drawableLeft="@drawable/link"
+                android:gravity="center_vertical"
+                android:text="Nadležnosti skupštine"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>

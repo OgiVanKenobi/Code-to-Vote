@@ -3,4 +3,131 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Problem4Naslov"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text="Smatram da je glasanje neregularno"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/P4TextView0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text="Rešenje: Da li znaš da postoji mogućnost da zaštitiš svoje izborno pravo, tačnije da prijaviš neregularnosti u toku izbornog procesa?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#33cc33"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"/>
+
+            <TextView
+                android:id="@+id/P4TextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text= "      Ukoliko smatraš da je tvoje izborno pravo povređeno u toku izbornog procesa, uočavanje nepravilnosti možeš prijaviti izbornoj komisiji jedinice lokalne samouprave (ukoliko su u pitanju lokalni izbori)/Republičkoj izbornoj komisiji (ukoliko su u pitanju izbori za narodne poslanike, presednički izbori), u roku od 24 časa od kada je data nepravilost učinjena- bilo da je doneta odluka ili je izvršena radnja koju smatraš nepravilnom ili je učinjen propust. "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/P4TextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text= "O tvom prigovoru izborna komisija/Republička izborna komisija mora da donese rešenje u roku od 48 sati od prijema prigovora i dostavi ti isto. Ako izborna komisija jedinice lokalne samouprave/Republička izborna komisija usvoji podneti prigovor, poništiće odluku ili radnju na koju je uložen prigovor. Protiv rešenja izborne komisije lokalne samouprave/Republičke izborne komisij, može se izjaviti žalba Upravnom sudu u roku od 24 časa od dostavljanja rešenja. "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/P4TextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text= " Izborna komisija lokalne samouprave/ Republička izborna komisija dužna je da sudu dostavi odmah, a najkasnije u roku od 12 časova sve potrebne podatke i spise za odlučivanje. U postupku zaštite izbornog prava sud shodno primenjuje odredbe zakona kojim se uređuje postupak u upravnim sporovima. Odluka po žalbi doneće se najkasnije u roku od 48 časova od dana prijema žalbe sa spisima. Odluka doneta u postupku po žalbi je pravnosnažna i protiv nje se ne mogu podneti zahtev za vanredno preispitivanje, niti zahtev za ponavljanje postupka, predviđeni Zakonom o upravnim sporovima."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+
+
+            <TextView
+                android:id="@+id/P4TextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text= "Prema Zakonu o izboru narodnih poslanika definisane su kaznene odredbe koje slede za počinjena krivična dela, što možeš videti u okviru članova: 104, 106, 108, 109, 110, 111, 112, 113, 114., koje se tiču povreda po pitanju pre svega rezultata izbora, pitanja vođenja biračkog spiska, kao i mnogih drugih odgovornosti."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/P4TextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:drawableLeft="@drawable/file"
+                android:gravity="center_vertical"
+                android:text="Zakon o izboru narodnih poslanika: članovi 93,94,95,96,97"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp" />
+
+
+
+
+            <TextView
+                android:id="@+id/P4TextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="24dp"
+                android:drawableLeft="@drawable/file"
+                android:gravity="center_vertical"
+                android:text="Zakon o lokalnim izborima: članovi 55,56,57,58,59."
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp" />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>
