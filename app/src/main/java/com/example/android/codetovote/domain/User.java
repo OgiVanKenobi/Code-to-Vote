@@ -1,26 +1,45 @@
 package com.example.android.codetovote.domain;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class User {
 
-    private Long id;
+    @SerializedName("id")
+    @Expose
+    private Integer id;
+    @SerializedName("username")
+    @Expose
     private String username;
+    @SerializedName("password")
+    @Expose
     private String password;
 
+    /**
+     * No args constructor for use in serialization
+     *
+     */
     public User() {
-        super();
     }
 
-    public User(Long id, String username, String password) {
+    /**
+     *
+     * @param id
+     * @param username
+     * @param password
+     */
+    public User(Integer id, String username, String password) {
+        super();
         this.id = id;
         this.username = username;
         this.password = password;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -39,4 +58,5 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
 }
