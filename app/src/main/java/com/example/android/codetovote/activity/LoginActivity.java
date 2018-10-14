@@ -41,7 +41,7 @@ public class LoginActivity extends Activity {
         Intent intent = getIntent();
         String msg = intent.getStringExtra("username");
         if (msg != null) {
-            Toast.makeText(getApplicationContext(), "Korisnik " + msg + "uspešno registrovan!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Korisnik " + msg + " uspešno registrovan!", Toast.LENGTH_LONG).show();
         }
 
         registerLink = findViewById(R.id.registerLink);
@@ -89,6 +89,7 @@ public class LoginActivity extends Activity {
                                     Intent intent = new Intent(LoginActivity.this, PitanjaActivity.class);
                                     intent.putExtra("username", response.body().getUsername());
                                     startActivity(intent);
+                                    finish();
                                 }else{
                                     Toast.makeText(getApplicationContext(), "Pogrešan username ili lozinka!",Toast.LENGTH_LONG).show();
                                 }

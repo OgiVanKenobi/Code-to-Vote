@@ -81,6 +81,7 @@ public class RegisterActivity extends Activity {
                                     Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
                                     intent.putExtra("username", response.body().getUsername());
                                     startActivity(intent);
+                                    finish();
                                 } else {
                                     Toast.makeText(getApplicationContext(), "Korisničko ime već postoji!", Toast.LENGTH_LONG).show();
                                 }
