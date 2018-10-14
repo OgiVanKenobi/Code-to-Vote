@@ -67,24 +67,102 @@ na neke od njenih najznačajnijih funkcija:"
                 android:layout_marginLeft="6dp"
                 android:layout_marginRight="6dp"
                 android:gravity="center_vertical"
-                android:text="Ona pre svega bira Vladu, kontroliše je i odlučuje o prestanku mandata Vlade i
-ministara;
-        - Bira i razrešava sudije Ustavnog suda ;
-        - Bira predsednika Vrhovnog kasacionog suda, predsednike sudova, sve javne tužioce i
-sudije;
-        - Bira i razrešava guvernera Narodne banke Srbije;
-        - Bira i razrešava Zaštitnika građana;
-        - Bira i razrešava i druge funkcionere utvrđene zakonom;
-        - Takođe, donosi i menja Ustav, odlučuje o promeni granica, raspisuje republički
-referendum i ima još ćitav set različitih nadležnosti."
+                android:text="Ona pre svega bira Vladu, kontroliše je i odlučuje o prestanku mandata Vlade i ministara; "
                 android:textColor="#000000"
                 android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/P5TextView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:gravity="center_vertical"
+                android:text="      - Ona pre svega bira Vladu, kontroliše je i odlučuje o prestanku mandata Vlade i ministara; "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/P5TextView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:gravity="center_vertical"
+                android:text="      - Bira i razrešava sudije Ustavnog suda;"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/P5TextView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:gravity="center_vertical"
+                android:text="      - Bira predsednika Vrhovnog kasacionog suda, predsednike sudova, sve javne tužioce i sudije;"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/P5TextView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:gravity="center_vertical"
+                android:text="      - Bira i razrešava guvernera Narodne banke Srbije;"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/P5TextView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:gravity="center_vertical"
+                android:text="      - Bira i razrešava Zaštitnika građana;"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/P5TextView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:gravity="center_vertical"
+                android:text="      - Bira i razrešava i druge funkcionere utvrđene zakonom;"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/P5TextView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:gravity="center_vertical"
+                android:text="      - Takođe, donosi i menja Ustav, odlučuje o promeni granica, raspisuje republički referendum i ima još ćitav set različitih nadležnosti."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
 
             <TextView
                 android:id="@+id/P5TextView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="6dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginLeft="6dp"
                 android:layout_marginRight="6dp"
                 android:layout_marginBottom="16dp"
@@ -126,6 +204,18 @@ referendum i ima još ćitav set različitih nadležnosti."
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:src="@drawable/skupstina1" />
+            <TextView
+                android:id="@+id/P5TextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:gravity="center_vertical"
+                android:text="*Koristite 2 prsta za zum"
+                android:textColor="#808080"
+                android:textSize="20sp" />
 
             <ImageView
                 android:id="@+id/skupstina2"
